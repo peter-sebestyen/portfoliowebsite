@@ -1,9 +1,12 @@
+/*Header*/
+
 header {
     display: flex;
     margin: auto;
     align-items: center;
     justify-content: flex-start;
     width: 80%;
+    border-bottom: 1px solid black;
 }
 
 header ul {
@@ -15,4 +18,33 @@ header ul {
 header ul li {
     list-style: none;
     margin: auto 0.5rem;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:hover {
+    color: darkgray;
+}
+
+/*Main Section*/
+
+/*Navigation and Introduction*/
+
+.introduction {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.introduction img {
+    width: 80%;
+    height: auto;
+}
+
+.introduction figure {
+    margin: auto;
 }
