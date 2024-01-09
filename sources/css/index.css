@@ -1,3 +1,7 @@
+html {
+    background-image: linear-gradient(#f9fff4, #dff7d1);
+}
+
 /*Header*/
 
 header {
@@ -35,16 +39,56 @@ header a:hover {
 
 .introduction {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 80%;
+    grid-template-columns: 1fr 2fr;
+    width: 70%;
     margin: 2rem auto;
 }
 
 .introduction img {
-    width: 80%;
+    width: 100%;
     height: auto;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.introduction figcaption {
+    width: 95%;
 }
 
 .introduction figure {
-    margin: auto;
+    display: grid;
+    justify-items: center;
+    min-width: 420px;
+}
+
+nav {
+    font-size: 2rem;
+    font-weight: 450;
+    min-width: 270px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 4rem auto;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav li {
+    border: 1px solid black;
+    border-radius: 0.7rem 0 0 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    transition: background-color 0.2s, width 0.5s;
+    width: 60%
+}
+
+nav li:hover {
+    background-color: purple;
+    cursor: pointer;
+    width: 70%;
 }
