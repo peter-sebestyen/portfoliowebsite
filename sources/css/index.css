@@ -1,5 +1,6 @@
 html {
-    background-image: linear-gradient(#f9fff4, #dff7d1);
+    background-image: linear-gradient(#fffccc, #f5f392);
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /*Header*/
@@ -45,14 +46,15 @@ header a:hover {
 }
 
 .introduction img {
-    width: 100%;
+    width: 70%;
     height: auto;
-    border-radius: 0.5rem;
+    border-radius: 45%;
     margin-bottom: 1rem;
 }
 
 .introduction figcaption {
-    width: 95%;
+    width: 70%;
+    
 }
 
 .introduction figure {
@@ -79,8 +81,9 @@ nav a {
 }
 
 nav li {
+    text-align: left;
     border: 1px solid black;
-    border-radius: 0.7rem 0 0 1rem;
+    border-radius: 0.2rem 0.2rem 0.2rem 1rem;
     padding: 1rem;
     margin: 1rem;
     transition: background-color 0.2s, width 0.5s;
@@ -88,7 +91,27 @@ nav li {
 }
 
 nav li:hover {
-    background-color: purple;
+    background-color: #fffccc;
     cursor: pointer;
     width: 70%;
+}
+
+/*About Me*/
+
+.aboutme {
+    width: 90%;
+    margin: 2rem auto;
+    
+}
+
+.aboutme figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutme img {
+    width: 20%;
+    height: auto;
+    margin-right: 1rem;
 }
